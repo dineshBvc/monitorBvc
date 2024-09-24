@@ -1,26 +1,20 @@
 owner: dineshBvc 
 repo: monitorBvc 
-user-agent: monitor
-
 sites:
   - name: BVC
     url: https://www.bvc24.com
-    icon: https://bvc24.com/img/favicon/favicon-16x16.html
   - name: CMS
     url: https://cms.bvc24.in
-    icon: https://cms.bvc24.in/assets/icon/favicon.ico
-
 assignees:
   - dineshBvc
   - tamilmctv
   - jayanandhini-tech
-
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   name: cms_bvc24
-  cname: https://cms.bvc24.in
-  # baseUrl: /monitorBvc
+  # cname: https://cms.bvc24.in
+  baseUrl: /monitorBvc
   logoUrl: https://cms.bvc24.in/assets/icon/favicon.ico
   introTitle: "Status page for BVC services via Upptime"
   introMessage: "We also create and assign issues to the team if we notice downtime."
